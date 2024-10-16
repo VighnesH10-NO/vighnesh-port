@@ -36,6 +36,7 @@ nav{
 }
 .links:hover{
     text-decoration: underline;
+    font-size: 22px;
     color: red;
 }
 .home-content{
@@ -50,7 +51,7 @@ nav{
 }
 #lname{
     font-family: "Dancing Script", cursive;
-    color: blue;
+    color: orange;
 }
 #user-details{
     line-height: 1.5;
@@ -270,4 +271,9 @@ html{
 }
 ::-webkit-scrollbar-track{
     background-color: rgb(245, 245, 245);
+}
+@media (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
 }
